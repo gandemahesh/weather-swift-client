@@ -1,7 +1,0 @@
-version: "Swift version 5.6-dev (LLVM 031406b6cea8006, Swift 9f7d3fccad66d76)"
-options: "bb4a94a12ff7ec22b2e1f1ade65daf121ef7715d8d60c7fdd4f1dc513cb662d4"
-build_start_time: [1641799929, 26098966]
-build_end_time: [1641799929, 639328002]
-inputs:
-  "/code/cs561-swift/MyLibrary/.build/x86_64-unknown-linux-gnu/debug/MyLibraryPackageTests.derived/MyLibraryTests.swift": [1641799928, 924431085]
-  "/code/cs561-swift/MyLibrary/.build/x86_64-unknown-linux-gnu/debug/MyLibraryPackageTests.derived/main.swift": [1641799928, 928924083]

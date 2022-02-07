@@ -27,6 +27,6 @@ class MockWeatherService: WeatherService {
     }
 
     func getMessage(completion: @escaping (_ response: Result<String /* Welcome */, Error>) -> Void) {
-        completion(.success("Welcome to MockPage!"))
+        completion(.success("Mockpage"))
     }
 }

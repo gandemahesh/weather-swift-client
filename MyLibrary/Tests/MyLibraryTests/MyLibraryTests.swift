@@ -3,12 +3,11 @@ import MyLibrary
 
 final class MyLibraryTests: XCTestCase {
     func testHello() throws {
-        // Given
+        
         let myLibrary = MyLibrary()
         let expectation = XCTestExpectation(description: "Ping the welcome page but heard back 🎄")
         var msgReceived: Bool?
 
-        // When
         myLibrary.isMsgReceived(completion: { lucky in
             msgReceived = lucky
             expectation.fulfill()
