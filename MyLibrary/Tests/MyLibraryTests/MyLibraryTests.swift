@@ -15,7 +15,7 @@ final class MyLibraryTests: XCTestCase {
 
         wait(for: [expectation], timeout: 5)
 
-        // Then
+        
         XCTAssertNotNil(msgReceived)
         XCTAssert(msgReceived == true)
     }
