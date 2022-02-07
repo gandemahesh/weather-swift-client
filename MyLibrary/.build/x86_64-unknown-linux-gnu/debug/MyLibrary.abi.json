@@ -1,0 +1,353 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "TypeDecl",
+      "name": "MyLibrary",
+      "printedName": "MyLibrary",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "weatherService",
+          "printedName": "weatherService",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeatherService",
+              "printedName": "MyLibrary.WeatherService",
+              "usr": "s:9MyLibrary14WeatherServiceP"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9MyLibraryAAC14weatherService33_4A6444129A9675BDC10B0CBB9EC84AB1LLAA07WeatherD0_pvp",
+          "mangledName": "$s9MyLibraryAAC14weatherService33_4A6444129A9675BDC10B0CBB9EC84AB1LLAA07WeatherD0_pvp",
+          "moduleName": "MyLibrary",
+          "isInternal": true,
+          "declAttributes": [
+            "Final",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(weatherService:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "MyLibrary",
+              "printedName": "MyLibrary.MyLibrary",
+              "usr": "s:9MyLibraryAAC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "MyLibrary.WeatherService?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "WeatherService",
+                  "printedName": "MyLibrary.WeatherService",
+                  "usr": "s:9MyLibrary14WeatherServiceP"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:9MyLibraryAAC14weatherServiceAbA07WeatherD0_pSg_tcfc",
+          "mangledName": "$s9MyLibraryAAC14weatherServiceAbA07WeatherD0_pSg_tcfc",
+          "moduleName": "MyLibrary",
+          "declAttributes": [
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "isLucky",
+          "printedName": "isLucky(_:completion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Swift.Bool?) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.Bool?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9MyLibraryAAC7isLucky_10completionySi_ySbSgctF",
+          "mangledName": "$s9MyLibraryAAC7isLucky_10completionySi_ySbSgctF",
+          "moduleName": "MyLibrary",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:9MyLibraryAAC",
+      "mangledName": "$s9MyLibraryAAC",
+      "moduleName": "MyLibrary",
+      "isOpen": true,
+      "declAttributes": [
+        "AccessControl"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Alamofire",
+      "printedName": "Alamofire",
+      "declKind": "Import",
+      "moduleName": "MyLibrary"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "WeatherService",
+      "printedName": "WeatherService",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "getTemperature",
+          "printedName": "getTemperature(completion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Swift.Result<Swift.Int, Swift.Error>) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Result",
+                  "printedName": "Swift.Result<Swift.Int, Swift.Error>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Error",
+                      "printedName": "Swift.Error",
+                      "usr": "s:s5ErrorP"
+                    }
+                  ],
+                  "usr": "s:s6ResultO"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9MyLibrary14WeatherServiceP14getTemperature10completionyys6ResultOySis5Error_pGc_tF",
+          "mangledName": "$s9MyLibrary14WeatherServiceP14getTemperature10completionyys6ResultOySis5Error_pGc_tF",
+          "moduleName": "MyLibrary",
+          "genericSig": "<τ_0_0 where τ_0_0 : MyLibrary.WeatherService>",
+          "sugared_genericSig": "<Self where Self : MyLibrary.WeatherService>",
+          "protocolReq": true,
+          "reqNewWitnessTableEntry": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Protocol",
+      "usr": "s:9MyLibrary14WeatherServiceP",
+      "mangledName": "$s9MyLibrary14WeatherServiceP",
+      "moduleName": "MyLibrary",
+      "declAttributes": [
+        "AccessControl"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "WeatherServiceImpl",
+      "printedName": "WeatherServiceImpl",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "url",
+          "printedName": "url",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9MyLibrary18WeatherServiceImplC3urlSSvp",
+          "mangledName": "$s9MyLibrary18WeatherServiceImplC3urlSSvp",
+          "moduleName": "MyLibrary",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9MyLibrary18WeatherServiceImplC3urlSSvg",
+              "mangledName": "$s9MyLibrary18WeatherServiceImplC3urlSSvg",
+              "moduleName": "MyLibrary",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "getTemperature",
+          "printedName": "getTemperature(completion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Swift.Result<Swift.Int, Swift.Error>) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Result",
+                  "printedName": "Swift.Result<Swift.Int, Swift.Error>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Error",
+                      "printedName": "Swift.Error",
+                      "usr": "s:s5ErrorP"
+                    }
+                  ],
+                  "usr": "s:s6ResultO"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9MyLibrary18WeatherServiceImplC14getTemperature10completionyys6ResultOySis5Error_pGc_tF",
+          "mangledName": "$s9MyLibrary18WeatherServiceImplC14getTemperature10completionyys6ResultOySis5Error_pGc_tF",
+          "moduleName": "MyLibrary",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "WeatherServiceImpl",
+              "printedName": "MyLibrary.WeatherServiceImpl",
+              "usr": "s:9MyLibrary18WeatherServiceImplC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:9MyLibrary18WeatherServiceImplCACycfc",
+          "mangledName": "$s9MyLibrary18WeatherServiceImplCACycfc",
+          "moduleName": "MyLibrary",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:9MyLibrary18WeatherServiceImplC",
+      "mangledName": "$s9MyLibrary18WeatherServiceImplC",
+      "moduleName": "MyLibrary",
+      "isOpen": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "WeatherService",
+          "printedName": "WeatherService",
+          "usr": "s:9MyLibrary14WeatherServiceP",
+          "mangledName": "$s9MyLibrary14WeatherServiceP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

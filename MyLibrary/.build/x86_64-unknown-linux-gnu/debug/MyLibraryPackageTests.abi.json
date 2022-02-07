@@ -1,0 +1,194 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "XCTest",
+      "printedName": "XCTest",
+      "declKind": "Import",
+      "moduleName": "MyLibraryPackageTests"
+    },
+    {
+      "kind": "Var",
+      "name": "tests",
+      "printedName": "tests",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "Array",
+          "printedName": "[(testCaseClass: XCTest.XCTestCase.Type, allTests: [(Swift.String, (XCTest.XCTestCase) throws -> ())])]",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Tuple",
+              "printedName": "(testCaseClass: XCTest.XCTestCase.Type, allTests: [(Swift.String, (XCTest.XCTestCase) throws -> ())])",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "XCTest.XCTestCase.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "XCTestCase",
+                      "printedName": "XCTest.XCTestCase",
+                      "usr": "s:6XCTest0A4CaseC"
+                    }
+                  ]
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[(Swift.String, (XCTest.XCTestCase) throws -> ())]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Tuple",
+                      "printedName": "(Swift.String, (XCTest.XCTestCase) throws -> ())",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        },
+                        {
+                          "kind": "TypeFunc",
+                          "name": "Function",
+                          "printedName": "(XCTest.XCTestCase) throws -> ()",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Void",
+                              "printedName": "()"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "XCTestCase",
+                              "printedName": "XCTest.XCTestCase",
+                              "usr": "s:6XCTest0A4CaseC"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ]
+            }
+          ],
+          "usr": "s:Sa"
+        }
+      ],
+      "declKind": "Var",
+      "usr": "s:21MyLibraryPackageTests5testsSay6XCTest0F4CaseCm04testG5Class_SaySS_yAEKctG03allD0tGvp",
+      "mangledName": "$s21MyLibraryPackageTests5testsSay6XCTest0F4CaseCm04testG5Class_SaySS_yAEKctG03allD0tGvp",
+      "moduleName": "MyLibraryPackageTests",
+      "declAttributes": [
+        "HasInitialValue",
+        "HasStorage"
+      ],
+      "hasStorage": true
+    },
+    {
+      "kind": "Import",
+      "name": "XCTest",
+      "printedName": "XCTest",
+      "declKind": "Import",
+      "moduleName": "MyLibraryPackageTests"
+    },
+    {
+      "kind": "Import",
+      "name": "MyLibraryTests",
+      "printedName": "MyLibraryTests",
+      "declKind": "Import",
+      "moduleName": "MyLibraryPackageTests",
+      "declAttributes": [
+        "Testable"
+      ]
+    },
+    {
+      "kind": "Function",
+      "name": "__allTests_MyLibraryTests",
+      "printedName": "__allTests_MyLibraryTests()",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "Array",
+          "printedName": "[(testCaseClass: XCTest.XCTestCase.Type, allTests: [(Swift.String, (XCTest.XCTestCase) throws -> ())])]",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Tuple",
+              "printedName": "(testCaseClass: XCTest.XCTestCase.Type, allTests: [(Swift.String, (XCTest.XCTestCase) throws -> ())])",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "XCTest.XCTestCase.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "XCTestCase",
+                      "printedName": "XCTest.XCTestCase",
+                      "usr": "s:6XCTest0A4CaseC"
+                    }
+                  ]
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[(Swift.String, (XCTest.XCTestCase) throws -> ())]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Tuple",
+                      "printedName": "(Swift.String, (XCTest.XCTestCase) throws -> ())",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        },
+                        {
+                          "kind": "TypeFunc",
+                          "name": "Function",
+                          "printedName": "(XCTest.XCTestCase) throws -> ()",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "Void",
+                              "printedName": "()"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "XCTestCase",
+                              "printedName": "XCTest.XCTestCase",
+                              "usr": "s:6XCTest0A4CaseC"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ]
+            }
+          ],
+          "usr": "s:Sa"
+        }
+      ],
+      "declKind": "Func",
+      "usr": "s:21MyLibraryPackageTests05__alld1_abD0Say6XCTest0F4CaseCm04testG5Class_SaySS_yAEKctG0eD0tGyF",
+      "mangledName": "$s21MyLibraryPackageTests05__alld1_abD0Say6XCTest0F4CaseCm04testG5Class_SaySS_yAEKctG0eD0tGyF",
+      "moduleName": "MyLibraryPackageTests",
+      "funcSelfKind": "NonMutating"
+    }
+  ],
+  "json_format_version": 6
+}

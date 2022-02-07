@@ -1,0 +1,7 @@
+version: "Swift version 5.6-dev (LLVM 031406b6cea8006, Swift 9f7d3fccad66d76)"
+options: "90b54327614ca6561a87234e98b7b0a59dc6edf3a2f16cedb5d63b85890750fb"
+build_start_time: [1642395783, 763520002]
+build_end_time: [1642395784, 389624118]
+inputs:
+  "/code/cs561-swift/MyLibrary/Tests/MyLibraryTests/MockWeatherService.swift": [1642394403, 454265117]
+  "/code/cs561-swift/MyLibrary/Tests/MyLibraryTests/MyLibraryTests.swift": [1642395777, 29437541]

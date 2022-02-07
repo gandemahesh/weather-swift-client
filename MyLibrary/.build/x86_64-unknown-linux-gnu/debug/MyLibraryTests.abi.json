@@ -1,0 +1,360 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Alamofire",
+      "printedName": "Alamofire",
+      "declKind": "Import",
+      "moduleName": "MyLibraryTests"
+    },
+    {
+      "kind": "Import",
+      "name": "MyLibrary",
+      "printedName": "MyLibrary",
+      "declKind": "Import",
+      "moduleName": "MyLibraryTests"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "MockWeatherService",
+      "printedName": "MockWeatherService",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "shouldSucceed",
+          "printedName": "shouldSucceed",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14MyLibraryTests18MockWeatherServiceC13shouldSucceed33_7640C284E0AF813263D8A72F6B671888LLSbvp",
+          "mangledName": "$s14MyLibraryTests18MockWeatherServiceC13shouldSucceed33_7640C284E0AF813263D8A72F6B671888LLSbvp",
+          "moduleName": "MyLibraryTests",
+          "isInternal": true,
+          "declAttributes": [
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "shouldReturnTemperatureWithAnEight",
+          "printedName": "shouldReturnTemperatureWithAnEight",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:14MyLibraryTests18MockWeatherServiceC34shouldReturnTemperatureWithAnEight33_7640C284E0AF813263D8A72F6B671888LLSbvp",
+          "mangledName": "$s14MyLibraryTests18MockWeatherServiceC34shouldReturnTemperatureWithAnEight33_7640C284E0AF813263D8A72F6B671888LLSbvp",
+          "moduleName": "MyLibraryTests",
+          "isInternal": true,
+          "declAttributes": [
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(shouldSucceed:shouldReturnTemperatureWithAnEight:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "MockWeatherService",
+              "printedName": "MyLibraryTests.MockWeatherService",
+              "usr": "s:14MyLibraryTests18MockWeatherServiceC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:14MyLibraryTests18MockWeatherServiceC13shouldSucceed0G28ReturnTemperatureWithAnEightACSb_Sbtcfc",
+          "mangledName": "$s14MyLibraryTests18MockWeatherServiceC13shouldSucceed0G28ReturnTemperatureWithAnEightACSb_Sbtcfc",
+          "moduleName": "MyLibraryTests",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "getTemperature",
+          "printedName": "getTemperature(completion:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(Swift.Result<Swift.Int, Swift.Error>) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Result",
+                  "printedName": "Swift.Result<Swift.Int, Swift.Error>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Error",
+                      "printedName": "Swift.Error",
+                      "usr": "s:s5ErrorP"
+                    }
+                  ],
+                  "usr": "s:s6ResultO"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14MyLibraryTests18MockWeatherServiceC14getTemperature10completionyys6ResultOySis5Error_pGc_tF",
+          "mangledName": "$s14MyLibraryTests18MockWeatherServiceC14getTemperature10completionyys6ResultOySis5Error_pGc_tF",
+          "moduleName": "MyLibraryTests",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:14MyLibraryTests18MockWeatherServiceC",
+      "mangledName": "$s14MyLibraryTests18MockWeatherServiceC",
+      "moduleName": "MyLibraryTests",
+      "isOpen": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "WeatherService",
+          "printedName": "WeatherService",
+          "usr": "s:9MyLibrary14WeatherServiceP",
+          "mangledName": "$s9MyLibrary14WeatherServiceP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "XCTest",
+      "printedName": "XCTest",
+      "declKind": "Import",
+      "moduleName": "MyLibraryTests"
+    },
+    {
+      "kind": "Import",
+      "name": "MyLibrary",
+      "printedName": "MyLibrary",
+      "declKind": "Import",
+      "moduleName": "MyLibraryTests"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "MyLibraryTests",
+      "printedName": "MyLibraryTests",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "testIsLuckyBecauseWeAlreadyHaveLuckyNumber",
+          "printedName": "testIsLuckyBecauseWeAlreadyHaveLuckyNumber()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14MyLibraryTestsAAC031testIsLuckyBecauseWeAlreadyHaveF6NumberyyKF",
+          "mangledName": "$s14MyLibraryTestsAAC031testIsLuckyBecauseWeAlreadyHaveF6NumberyyKF",
+          "moduleName": "MyLibraryTests",
+          "declAttributes": [
+            "Final"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testIsLuckyBecauseWeatherHasAnEight",
+          "printedName": "testIsLuckyBecauseWeatherHasAnEight()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14MyLibraryTestsAAC35testIsLuckyBecauseWeatherHasAnEightyyKF",
+          "mangledName": "$s14MyLibraryTestsAAC35testIsLuckyBecauseWeatherHasAnEightyyKF",
+          "moduleName": "MyLibraryTests",
+          "declAttributes": [
+            "Final"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testIsNotLucky",
+          "printedName": "testIsNotLucky()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14MyLibraryTestsAAC14testIsNotLuckyyyKF",
+          "mangledName": "$s14MyLibraryTestsAAC14testIsNotLuckyyyKF",
+          "moduleName": "MyLibraryTests",
+          "declAttributes": [
+            "Final"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testIsNotLuckyBecauseServiceCallFails",
+          "printedName": "testIsNotLuckyBecauseServiceCallFails()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:14MyLibraryTestsAAC37testIsNotLuckyBecauseServiceCallFailsyyKF",
+          "mangledName": "$s14MyLibraryTestsAAC37testIsNotLuckyBecauseServiceCallFailsyyKF",
+          "moduleName": "MyLibraryTests",
+          "declAttributes": [
+            "Final"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(name:testClosure:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "MyLibraryTests",
+              "printedName": "MyLibraryTests.MyLibraryTests",
+              "usr": "s:14MyLibraryTestsAAC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(XCTest.XCTestCase) throws -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "XCTestCase",
+                  "printedName": "XCTest.XCTestCase",
+                  "usr": "s:6XCTest0A4CaseC"
+                }
+              ]
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:14MyLibraryTestsAAC4name11testClosureABSS_y6XCTest0G4CaseCKctcfc",
+          "mangledName": "$s14MyLibraryTestsAAC4name11testClosureABSS_y6XCTest0G4CaseCKctcfc",
+          "moduleName": "MyLibraryTests",
+          "overriding": true,
+          "implicit": true,
+          "declAttributes": [
+            "Required",
+            "UsableFromInline"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:14MyLibraryTestsAAC",
+      "mangledName": "$s14MyLibraryTestsAAC",
+      "moduleName": "MyLibraryTests",
+      "declAttributes": [
+        "Final"
+      ],
+      "superclassUsr": "s:6XCTest0A4CaseC",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "XCTest.XCTestCase",
+        "XCTest.XCTest"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Listable",
+          "printedName": "Listable",
+          "usr": "s:6XCTest8ListableP",
+          "mangledName": "$s6XCTest8ListableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "PerformanceMeterDelegate",
+          "printedName": "PerformanceMeterDelegate",
+          "usr": "s:6XCTest24PerformanceMeterDelegateP",
+          "mangledName": "$s6XCTest24PerformanceMeterDelegateP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "XCTWaiterDelegate",
+          "printedName": "XCTWaiterDelegate",
+          "usr": "s:6XCTest17XCTWaiterDelegateP",
+          "mangledName": "$s6XCTest17XCTWaiterDelegateP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/code/cs561-swift/MyLibrary/.build/x86_64-unknown-linux-gnu/debug/MyLibraryTests.build/master.swiftdeps"
+  },
+  "/code/cs561-swift/MyLibrary/Tests/MyLibraryTests/MockWeatherService.swift": {
+    "dependencies": "/code/cs561-swift/MyLibrary/.build/x86_64-unknown-linux-gnu/debug/MyLibraryTests.build/MockWeatherService.d",
+    "object": "/code/cs561-swift/MyLibrary/.build/x86_64-unknown-linux-gnu/debug/MyLibraryTests.build/MockWeatherService.swift.o",
+    "swiftmodule": "/code/cs561-swift/MyLibrary/.build/x86_64-unknown-linux-gnu/debug/MyLibraryTests.build/MockWeatherService~partial.swiftmodule",
+    "swift-dependencies": "/code/cs561-swift/MyLibrary/.build/x86_64-unknown-linux-gnu/debug/MyLibraryTests.build/MockWeatherService.swiftdeps"
+  },
+  "/code/cs561-swift/MyLibrary/Tests/MyLibraryTests/MyLibraryTests.swift": {
+    "dependencies": "/code/cs561-swift/MyLibrary/.build/x86_64-unknown-linux-gnu/debug/MyLibraryTests.build/MyLibraryTests.d",
+    "object": "/code/cs561-swift/MyLibrary/.build/x86_64-unknown-linux-gnu/debug/MyLibraryTests.build/MyLibraryTests.swift.o",
+    "swiftmodule": "/code/cs561-swift/MyLibrary/.build/x86_64-unknown-linux-gnu/debug/MyLibraryTests.build/MyLibraryTests~partial.swiftmodule",
+    "swift-dependencies": "/code/cs561-swift/MyLibrary/.build/x86_64-unknown-linux-gnu/debug/MyLibraryTests.build/MyLibraryTests.swiftdeps"
+  }
+}
